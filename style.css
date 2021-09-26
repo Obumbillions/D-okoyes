@@ -6,7 +6,7 @@ body{
 }
 
 .All{
-    max-width: 90%;
+   
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,16 +18,24 @@ body{
     text-align: center;
 
 }
+
 .Family{
-    background-color: #09a7a1;
-    border-radius: 10px solid #09a7a1;
     margin-left: 70px;
     margin-right: 50px;
     margin-top: 30px; 
     margin-bottom: 30px;
-    max-width: 100%;
+    justify-content: inherit;
+    align-items: inherit;
+    
    
 
+}
+.Family img{
+    width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
 }
 .Writeup{
     font-size: 30px;
