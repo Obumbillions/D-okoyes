@@ -1,0 +1,200 @@
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 2;
+    background-color: #f6f6f8;
+}
+
+.All{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name{
+    font-style: italic;
+    color: #0ff;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.Family{
+    background-color: #09a7a1;
+    border-radius: 10px solid #09a7a1;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    max-width: 100%;
+   
+
+}
+.Writeup{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.Children{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    max-width: 100%;
+    
+}
+
+.children2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.children3{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.Done{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.one{
+    font-style: italic;
+   
+}
+
+.two{
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+.three{
+    font-style: italic;
+    
+    
+}
+.bigbro1:hover{
+    transform:scale(1.1);
+    color: rebeccapurple;
+
+}
+.bigbro2:hover{
+    transform:scale(1.1);
+    color: rebeccapurple;
+
+}
+.bigbro3:hover{
+    transform:scale(1.1);
+    color: rebeccapurple;
+
+}
+.bigbro4:hover{
+    transform:scale(1.1);
+    color: rebeccapurple;
+
+}
+.junior1:hover{
+    transform:scale(1.1);
+    color: rebeccapurple;
+
+}
+.junior2:hover{
+    transform:scale(1.1);
+    color: rebeccapurple;
+
+}
+.bigbro1{
+    animation-name: sky;
+    animation-duration: 5s;
+    
+}
+@keyframes sky{
+    0%{background-color: #c5d5cb;
+    left: 0px;}
+    50%{background-color: #9fa8a3;
+    left: 25px;}
+    100%{background-color: #e3e0cf;
+    left: -25px;}
+}
+.bigbro2{
+    animation-name: sky1;
+    animation-duration: 7s;
+    
+}
+@keyframes sky1{
+    0%{background-color: #b89f5d;
+    left: 0px;}
+    50%{background-color: #5a7670;
+    left: 25px;}
+    100%{background-color: #c60021;
+    left: -25px;}
+}
+.bigbro3{
+    animation-name: sky3;
+    animation-duration: 9s;
+    
+}
+@keyframes sky3{
+    0%{background-color: #000000;
+    left: 0px;}
+    50%{background-color: #fa255e;
+    left: 25px;}
+    100%{background-color: #c39ea0;
+    left: -25px;}
+}
+.bigbro4{
+    animation-name: blue1;
+    animation-duration: 11s;
+    
+}
+@keyframes blue1{
+    0%{background-color: #fae596;
+    left: 0px;}
+    50%{background-color: #3fb0ac;
+    left: 25px;}
+    100%{background-color: #173e43;
+    left: -25px;}
+}
+.junior1{
+    animation-name: blue2;
+    animation-duration: 12s;
+    
+}
+@keyframes blue2{
+    0%{background-color: #dddfd4;
+    left: 0px;}
+    50%{background-color: green;
+    left: 25px;}
+    100%{background-color: yellow;
+    left: -25px;}
+}
+.junior2{
+    animation-name: blue3;
+    animation-duration: 14s;
+    
+}
+@keyframes blue3{
+    0%{background-color: #34421e;
+    left: 0px;}
+    50%{background-color: #f1f1ef;
+    left: 25px;}
+    100%{background-color: #c19434;
+    left: -25px;}
+}
