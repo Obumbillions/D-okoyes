@@ -85,17 +85,21 @@ body{
 
 .one{
     font-style: italic;
-   
+    font-size: 30px;
+    
 }
 
 .two{
     font-weight: bolder;
     font-style: italic;
+     font-size: 30px;
+   
     
 }
 .three{
     font-style: italic;
-    
+     font-size: 30px;
+     
     
 }
 .bigbro1:hover{
